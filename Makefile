@@ -3,7 +3,7 @@
 DATABASE = db.sqlite3
 
 server: env $(DATABASE)
-	. env/bin/activate && python manage.py runserver
+	. env/bin/activate && foreman start
 
 env: requirements.txt
 	virtualenv env && .env/bin/activate && pip install --requirement requirements.txt
