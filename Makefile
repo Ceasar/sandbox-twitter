@@ -2,6 +2,8 @@
 
 DATABASE = db.sqlite3
 
+export DATABASE_URL = sqlite:///$(DATABASE)
+
 server: env $(DATABASE)
 	. env/bin/activate && foreman start
 
