@@ -1,5 +1,5 @@
 
-.. _Django: www.djangoproject.com
+.. _Django: https://www.djangoproject.com/
 
 ********************************************************************************
 Twitter sandbox
